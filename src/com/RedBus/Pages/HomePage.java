@@ -16,16 +16,16 @@ public class HomePage extends BasePage
 	@FindBy(id="gosuggest_inputDest")
 	private WebElement toBT;
 	
-	@FindBy(xpath="(//input)[6]")
+	@FindBy(id="departureCalendar")  
 	private WebElement clformdBT;
 	
-	@FindBy(xpath="(//div[.='14'])[1]")
+	@FindBy(id="returnCalendar")
 	private WebElement dataBt;
 	
-	@FindBy(xpath="(//input)[7]")
-	private WebElement rtToBT;
+	@FindBy(id="pax_link_common")  
+	private WebElement rtToBT;    
 	
-	@FindBy(id="gi_search_btn")
+	@FindBy(id="gi_search_btn")   
 	private WebElement GoSetBT;
 	
 	public HomePage(WebDriver driver) {
