@@ -13,8 +13,8 @@ public class LoginTest extends BaseTest
 	@Test
 	public void test() throws InterruptedException
 	{
-		String un=ExcelData.getData(file_path, "Sheet1", 1, 0);
-		String pw=ExcelData.getData(file_path, "Sheet1", 1, 1);
+		String un=ExcelData.getData("C:\\Users\\RAJAREDDY\\git\\Redbus\\Data\\input.xlsx", "Sheet1", 1, 0);
+		String pw=ExcelData.getData("C:\\Users\\RAJAREDDY\\git\\Redbus\\Data\\input.xlsx", "Sheet1", 1, 1);
 		
 		GoibiboPages gp= new GoibiboPages(driver);
 		HomePage hp= new HomePage(driver);

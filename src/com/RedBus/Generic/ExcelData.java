@@ -10,7 +10,7 @@ public class ExcelData
 	public static String getData(String f_path,String sheetName,int rn,int cn)
 	{
 		try {
-			FileInputStream file= new FileInputStream(new File(f_path));
+			FileInputStream file= new FileInputStream(new File("C:\\Users\\RAJAREDDY\\git\\Redbus\\Data\\input.xlsx"));
 			Workbook wb=WorkbookFactory.create(file);
 			String data=wb.getSheet(sheetName).getRow(rn).getCell(cn).toString();
 			return data;
@@ -26,7 +26,7 @@ public class ExcelData
 	{
 		try 
 		{
-			FileInputStream file= new FileInputStream(new File(f_path));
+			FileInputStream file= new FileInputStream(new File("C:\\Users\\RAJAREDDY\\git\\Redbus\\Data\\input.xlsx"));
 			int rc=WorkbookFactory.create(file).getSheet(sheetName).getLastRowNum();
 			return rc;
 		}
@@ -41,7 +41,7 @@ public class ExcelData
 	 {
 		 try
 		 {
-			 FileInputStream file= new FileInputStream(new File(f_path));
+			 FileInputStream file= new FileInputStream(new File("C:\\Users\\RAJAREDDY\\git\\Redbus\\Data\\input.xlsx"));
 			 int cc=WorkbookFactory.create(file).getSheet(sheetName).getRow(rn).getLastCellNum();
 			 return cc;
 		 }
