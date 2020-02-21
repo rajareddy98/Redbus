@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="162480" started-at="2020-02-10T15:14:10Z" finished-at="2020-02-10T15:16:52Z">
+  <suite name="Default suite" duration-ms="182568" started-at="2020-02-20T13:44:21Z" finished-at="2020-02-20T13:47:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="162480" started-at="2020-02-10T15:14:10Z" finished-at="2020-02-10T15:16:52Z">
+    <test name="Default test" duration-ms="182568" started-at="2020-02-20T13:44:21Z" finished-at="2020-02-20T13:47:24Z">
       <class name="com.RedBus.Test.LoginTest">
-        <test-method status="PASS" signature="precondition()[pri:0, instance:com.RedBus.Test.LoginTest@1753acfe]" name="precondition" is-config="true" duration-ms="64210" started-at="2020-02-10T20:44:10Z" finished-at="2020-02-10T20:45:14Z">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.RedBus.Test.LoginTest@482f8f11]" name="precondition" is-config="true" duration-ms="103123" started-at="2020-02-20T19:14:21Z" finished-at="2020-02-20T19:16:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.RedBus.Test.LoginTest@1753acfe]" name="test" duration-ms="97554" started-at="2020-02-10T20:45:14Z" finished-at="2020-02-10T20:46:52Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.RedBus.Test.LoginTest@482f8f11]" name="test" duration-ms="78967" started-at="2020-02-20T19:16:04Z" finished-at="2020-02-20T19:17:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:com.RedBus.Test.LoginTest@1753acfe]" name="postcondition" is-config="true" duration-ms="396" started-at="2020-02-10T20:46:52Z" finished-at="2020-02-10T20:46:52Z">
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:com.RedBus.Test.LoginTest@482f8f11]" name="postcondition" is-config="true" duration-ms="409" started-at="2020-02-20T19:17:23Z" finished-at="2020-02-20T19:17:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test status=SUCCESS method=LoginTest.test()[pri:0, instance:com.RedBus.Test.LoginTest@1753acfe] output={null}]]]>
+                <![CDATA[[TestResult name=test status=SUCCESS method=LoginTest.test()[pri:0, instance:com.RedBus.Test.LoginTest@482f8f11] output={null}]]]>
               </value>
             </param>
           </params>
